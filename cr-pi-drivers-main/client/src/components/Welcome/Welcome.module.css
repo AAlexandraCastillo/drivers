@@ -1,0 +1,16 @@
+.div{
+    background-image: url(https://e0.pxfuel.com/wallpapers/968/423/desktop-wallpaper-high-resolution-race-car-cool-racing-cars.jpg);
+    width: 500px;
+    height: 400px;
+padding: 500px;
+  
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 1px;
+   
+
+}

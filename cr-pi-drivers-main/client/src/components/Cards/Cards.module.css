@@ -1,0 +1,113 @@
+/*.miDiv {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://e0.pxfuel.com/wallpapers/968/423/desktop-wallpaper-high-resolution-race-car-cool-racing-cars.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around; /* Otra opción podría ser 'flex-start' si prefieres */
+  /*align-items: flex-start;//*
+  box-sizing: border-box; /* Asegura que el padding no afecte las dimensiones totales */
+
+/*
+.card {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  width: 250px;
+  font-size: 8px;
+  line-height: 1.2;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.877);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: aliceblue;
+  border-color: rgb(253, 25, 127);
+  text-shadow: 0 0 20px rgba(89, 255, 295, 0.969);
+  font-size: 9px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: antiquewhite;
+  text-align: center;
+  margin: 0;
+}*/
+ 
+.miDiv {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh; /* Asegura que la altura mínima sea 100% del viewport */
+  background-image: url(https://e0.pxfuel.com/wallpapers/968/423/desktop-wallpaper-high-resolution-race-car-cool-racing-cars.jpg);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 10px;
+ margin-top: 60px;
+
+ 
+}
+.card{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 300px;
+  font-size: 14px;
+  line-height: 1.9;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.877);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  margin-right: 5px;
+  height: 100%;
+  
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: aliceblue;
+  border-color: rgb(253, 25, 127);
+  text-shadow: 0 0 20px rgba(89, 255, 295, 0.969);
+  font-size: 6px;
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+}
+ h2 {
+  color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 14px;
+ }

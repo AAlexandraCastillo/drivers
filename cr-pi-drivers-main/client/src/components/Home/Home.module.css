@@ -1,0 +1,20 @@
+
+   .buttonCreate {
+     
+      cursor:pointer;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    line-height: 50px;
+    padding: 10px;
+    height: 19px;
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 73px;
+    font-size: 15px;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 2px solid white; /* Borde blanco */
+    text-align: center;
+    line-height: 5px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    }
+      

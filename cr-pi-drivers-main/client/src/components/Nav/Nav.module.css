@@ -1,0 +1,54 @@
+.container{
+position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   background-color:black;
+   box-shadow: 0 4px 4px 0 rgba(18, 205, 83, 0.997);
+    z-index: 1000; /* Asegura que el componente esté encima del resto del contenido */
+    display: flex;
+   justify-content: space-between; /* Distribuir elementos uniformemente */
+   padding: 10px; /* Agregar un espaciado interno */
+   height: 44px;
+}
+      
+      container a {
+        margin-right: 1px; /* Agregar margen derecho entre elementos de navegación */
+      } 
+
+
+    
+  .buttonApi{
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(77, 249, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+   background-color:rgba(255, 255, 0, 0.904);
+    
+    border: none;
+    /* Ajusta el tamaño del botón cambiando estos valores */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.8);
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade una transición suave al tamaño y la sombra */
+    margin-right: 4px;
+    margin-top: 0;
+}
+
+.buttonApi:hover {
+    background-color: #b7dfb286;
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    box-shadow: 0 0 20px rgba(163, 204, 150, 0.8); /* Aumenta la sombra al pasar el mouse */
+}
+  .ord{
+    padding: 3px;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: rgba(23, 241, 168, 0.733);
+  
+  }
+
+    
